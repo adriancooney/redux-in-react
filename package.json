@@ -1,0 +1,23 @@
+{
+  "name": "redux-in-react",
+  "version": "0.1.0",
+  "description": "Redux in plain React.",
+  "main": "src/index.js",
+  "peerDependencies": {
+    "react": "0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriancooney/redux-in-react.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Adrian Cooney <cooney.adrian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriancooney/redux-in-react/issues"
+  },
+  "homepage": "https://github.com/adriancooney/redux-in-react#readme"
+}
