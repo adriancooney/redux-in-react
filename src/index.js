@@ -14,7 +14,7 @@ export default class Provider extends Component {
     }
 
     dispatch(action) {
-        this.intermediateState = this.reduce(this.intermediateState || this.state, action);
+        this.intermediateState = (this.props.reduce || this.reduce)(this.intermediateState || this.state, action);
 
         if(this.intermediateState !== this.state) {
             Component.prototype.setState.call(
